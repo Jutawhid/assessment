@@ -2,11 +2,11 @@
   "name": "assessment",
   "version": "1.0.0",
   "description": "cash-in cash-out and commission fee calculation",
-  "main": "app.js",
+  "main": "src/main.js",
   "type": "module",
   "scripts": {
     "start": "node src/main.js input.json",
-    "test": "jest",
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js ",
     "test:watch": "npm run test -- --watchAll"
   },
   "author": "Md. Jusim Uddin Tawhid",
