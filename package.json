@@ -1,0 +1,26 @@
+{
+  "name": "assessment",
+  "version": "1.0.0",
+  "description": "cash-in cash-out and commission fee calculation",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/main.js input.json",
+    "test": "jest",
+    "test:watch": "npm run test -- --watchAll"
+  },
+  "author": "Md. Jusim Uddin Tawhid",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.18.9",
+    "@babel/node": "^7.18.9",
+    "@babel/preset-env": "^7.18.9",
+    "eslint": "^8.20.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.26.0",
+    "jest": "^28.1.3",
+    "node-fetch": "^3.2.9",
+    "prettier": "^2.7.1"
+  }
+}
